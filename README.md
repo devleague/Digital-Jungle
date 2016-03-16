@@ -1,2 +1,4 @@
-# Digital-Jungle-Spring-2016
-Sonic-PI
+# Digital-Jungle
+Welcome to the Digital Jungle.
+
+-Music Production
