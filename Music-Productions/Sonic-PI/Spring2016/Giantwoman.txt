@@ -1,0 +1,43 @@
+live_loop :melody1 do
+  use_synth :piano
+  play :E
+  sleep 0.25
+  play :D
+  sleep 0.25
+  play :C
+  sleep 0.25
+  play :D
+  sleep 0.25
+  play :A3
+  use_synth :pretty_bell
+  play (chord :F, :major)
+  use_synth :piano
+  sleep 0.75
+  play :A3
+  sleep 0.25
+  play :E
+  sleep 0.25
+  play :D
+  sleep 0.25
+  play :C
+  sleep 0.25
+  play :D
+  sleep 0.25
+  play :G3
+  use_synth :pretty_bell
+  play (chord :G, :major)
+  use_synth :piano
+  sleep 0.75
+  play :G3
+  sleep 0.25
+  play :E
+  sleep 0.5
+  play :D
+  sleep 0.25
+  play :D
+  sleep 0.5
+  play :E
+  use_synth :pretty_bell
+  play (chord :C, :major)
+  sleep 1
+end
