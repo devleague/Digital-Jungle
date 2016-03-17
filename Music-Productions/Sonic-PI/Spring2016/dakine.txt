@@ -1,0 +1,55 @@
+live_loop :triangle do
+  sample :sn_dub
+  play:C
+  sleep 1.25
+  play:e
+  sleep 1.25
+  play:g
+  sleep 1.25
+  play:b
+  sleep 1.25
+  play:A
+end
+
+live_loop :h09 do
+  use_synth :subpulse
+  play :F
+  sleep 1
+  play :a
+  sleep 0.50
+  play :c
+  sleep 0.50
+  play :e
+  sleep 0.50
+end
+
+live_loop :cool do
+  sample :perc_snap2
+  play:d
+  sleep 1.10
+  play:f
+  sleep 1.10
+  play:g
+  sleep 1.10
+  play:b
+  sleep 1.10
+end
+
+live_loop :h09 do
+  use_synth :subpulse
+  play :F
+  sleep 1
+  play :d
+  sleep 0.50
+  play :g
+  sleep 0.50
+  play :C7
+  sleep 0.50
+end
+
+live_loop:can do
+  play:c2
+  sleep 0.45
+  play:e2
+  sleep 0.3
+end
