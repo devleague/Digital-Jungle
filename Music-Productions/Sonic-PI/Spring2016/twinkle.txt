@@ -1,0 +1,112 @@
+# Welcome to Sonic Pi v2.9
+use_bpm 50
+use_synth :piano
+
+live_loop :drums do
+  sample :drum_heavy_kick
+  sleep 0.5
+  sample :drum_snare_hard
+  sleep 0.375
+  sample :drum_bass_hard
+  sleep 0.375
+  sample :drum_bass_hard
+  sleep 0.125
+  sample :drum_bass_hard
+  sleep 0.125
+  sample :drum_snare_hard
+  sleep 0.250
+  sample :drum_cymbal_closed
+  sleep 0.250
+end
+live_loop :synthBackup do
+  sample :drum_cymbal_pedal, attack: 0.125
+  sleep 0.125
+  sample :drum_cymbal_pedal, sustain: 0.5
+  sleep 0.125
+  sample :drum_cymbal_pedal, sustain: 0
+  sleep 0.125
+  sample :drum_cymbal_pedal, attack: 1.5
+  sleep 0.125
+end
+
+live_loop :melody do
+  play :C, sustain: 0.5
+  sleep 0.5
+  play :C, sustain: 0.5
+  sleep 0.5
+  play :G, sustain: 0.5
+  sleep 0.5
+  play :G, sustain: 0.5
+  sleep 0.5
+  play :A, sustain: 0.5
+  sleep 0.5
+  play :A, sustain: 0.5
+  sleep 0.25
+  play :F, sustain: 0.25
+  sleep 0.25
+  play :G, sustain: 0.25
+  sleep 1
+  # end of chorus
+  play :F, sustain: 0.5
+  sleep 0.5
+  play :F, sustain: 0.5
+  sleep 0.5
+  play :E, sustain: 0.5
+  sleep 0.5
+  play :E, sustain: 0.5
+  sleep 0.5
+  play :D, sustain: 0.5
+  sleep 0.5
+  play :D, sustain: 0.5
+  sleep 0.5
+  play :C, sustain: 0.5
+  sleep 0.5
+  2.times do
+    sleep 0.5
+    play :G, sustain: 0.5
+    sleep 0.5
+    play :G, sustain: 0.5
+    sleep 0.5
+    play :F, sustain: 0.5
+    sleep 0.5
+    play :F, sustain: 0.5
+    sleep 0.5
+    play :E, sustain: 0.5
+    sleep 0.5
+    play :E, sustain: 0.5
+    sleep 0.5
+    play :D, sustain: 0.5
+    sleep 0.5
+  end
+  sleep 0.5
+  play :C, sustain: 0.5
+  sleep 0.5
+  play :C, sustain: 0.5
+  sleep 0.5
+  play :G, sustain: 0.5
+  sleep 0.5
+  play :G, sustain: 0.5
+  sleep 0.5
+  play :A, sustain: 0.5
+  sleep 0.5
+  play :A, sustain: 0.5
+  sleep 0.25
+  play :F, sustain: 0.25
+  sleep 0.25
+  play :G, sustain: 0.25
+  sleep 1
+  play :F, sustain: 0.5
+  sleep 0.5
+  play :F, sustain: 0.5
+  sleep 0.5
+  play :E, sustain: 0.5
+  sleep 0.5
+  play :E, sustain: 0.5
+  sleep 0.5
+  play :D, sustain: 0.5
+  sleep 0.5
+  play :D, sustain: 0.5
+  sleep 0.5
+  play :C, sustain: 0.5
+  sleep 1
+end
