@@ -1,0 +1,23 @@
+sample :drum_snare_hard, rate: 44
+sleep 1
+sample :bass_hit_c, rate: 99
+sleep 1
+sample :elec_soft_kick, rate: 69
+sleep 1
+sample :drum_snare_hard, rate: 53
+sleep 1
+sample :drum_snare_hard, rate: 75
+sleep 1
+play chord(:a3, :dom7), release: 1
+sleep 1
+play chord(:b4, :dom7), release: 1
+sleep 1
+play chord(:c5, :dom7), release: 1
+sleep 1
+play chord(:d6, :dom7), release: 1
+sleep 1
+play chord(:e4, :dom7), release: 1
+sleep 1
+play chord(:f4, :dom7), release: 1
+sleep 1
+play chord(:g4, :dom7), release: 1
