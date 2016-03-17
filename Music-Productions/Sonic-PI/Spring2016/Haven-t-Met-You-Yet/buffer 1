@@ -1,0 +1,25 @@
+live_loop:x1 do
+  # sample :guit_harmonics
+  sample :guit_e_fifths
+  # sample :guit_e_slide
+  # sample :guit_em9
+  play :Fs, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 2
+  play :B, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 2
+  play :E, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 2
+  play :Df, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 1
+  play :B, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 1
+  play :Fs, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 2
+  play :Df, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 2
+  play :Ef, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 2
+  play :Df, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+  sleep 2
+  play :Fs, amp: 0.5, decay: 0.1, sustain: 0.5, release: 0.2
+end
