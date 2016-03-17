@@ -1,0 +1,16 @@
+4.times do
+  sample :drum_heavy_kick
+  sample :drum_cymbal_closed
+  sleep 1
+  sample :drum_snare_hard
+  sample :drum_cymbal_open
+  2.times do
+    sleep 1
+    sample :drum_heavy_kick
+  end
+  sample :drum_cymbal_closed
+  sleep 1
+  sample :drum_snare_hard
+  sample :drum_cymbal_open
+  sleep 1
+end
