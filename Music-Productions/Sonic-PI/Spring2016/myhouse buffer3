@@ -1,0 +1,37 @@
+live_loop :myhouse  do
+  play chord(:G, :major)
+  sleep 3.5
+  play :Ef
+  sleep 0.5
+  play :Bf
+  sleep 2
+  play :G
+  sleep 2.5
+  play :Ef
+  sleep 0.5
+  play :Bf
+  sleep 2
+  play :G
+  sleep 2.5
+  play :Ef
+  sleep 0.5
+  play :Bf
+  sleep 2
+  play :G
+  sleep 2.5
+  play :Ef
+  sleep 0.7
+  play :Bf
+  sleep 0.5
+  play :G
+  sleep 0.5
+  play :Ef
+  sleep 2
+  play :Bf
+  sleep 4
+  play :G
+  sleep 0.5
+  play :E
+  sleep 1.5
+  play :B
+end
