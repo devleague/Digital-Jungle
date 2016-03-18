@@ -1,5 +1,9 @@
+use_bpm 60
+
 use_synth :tb303
 use_synth_defaults release: 0.1
+
+M1 = 0
 
 define :main do
   sleep 0.25
@@ -21,24 +25,24 @@ define :main do
 end
 
 define :run do
-  play :D
+  play :D+M1
   sleep 0.125
-  play :D
+  play :D+M1
   main
   sleep 0.125
-  play :C
+  play :C+M1
   sleep 0.125
-  play :C
+  play :C+M1
   main
   sleep 0.125
-  play :B3
+  play :B3+M1
   sleep 0.125
-  play :B3
+  play :B3+M1
   main
   sleep 0.125
-  play :Bf3
+  play :Bf3+M1
   sleep 0.125
-  play :Bf3
+  play :Bf3+M1
   main
 end
 
@@ -47,6 +51,7 @@ define :bass do
   sample :drum_bass_hard, amp: 2
   sleep 0.25
   play BN
+  sample :elec_snare
   sleep 0.125
   play BN
   sleep 0.125
@@ -56,6 +61,7 @@ define :bass do
   sample :drum_bass_hard, amp: 2
   sleep 0.25
   play BN
+  sample :elec_snare
   sleep 0.125
   play BN
   sleep 0.125
@@ -67,21 +73,38 @@ define :bass do
   play BN
   sample :drum_bass_hard, amp: 2
   sleep 0.25
+  sample :elec_snare
 end
 
-M1 = 0
 
-run
-in_thread do
+live_loop :playMusic do
   run
-end
-in_thread do
-  BN = :D2
-  bass
-  BN = :C2
-  bass
-  BN = :B1
-  bass
-  BN = :Bf1
-  bass
+  in_thread do
+    run
+  end
+  in_thread do
+    BN = :D2
+    bass
+    BN = :C2
+    bass
+    BN = :B1
+    bass
+    BN = :Bf1
+    bass
+  end
+
+  in_thread delay: 7.99 do
+    M1 = 12
+    run
+  end
+  in_thread delay: 7.99 do
+    BN = :D2
+    bass
+    BN = :C2
+    bass
+    BN = :B1
+    bass
+    BN = :Bf1
+    bass
+  end
 end
