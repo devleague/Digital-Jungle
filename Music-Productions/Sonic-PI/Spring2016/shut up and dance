@@ -1,0 +1,36 @@
+use_bpm 128
+live_loop :melody do
+  use_synth :blade
+  play :F
+  sleep 0.5
+  play :Ab
+  sleep 0.5
+  play :Db5
+  sleep 0.5
+  play :Gb
+  sleep 0.5
+  play :Ab
+  sleep 0.5
+  play :Db5
+  sleep 0.5
+  play :Gb
+  sleep 0.5
+  play :Db5
+  sleep 0.5
+  play :F
+  sleep 0.5
+  play :Ab
+  sleep 0.5
+  play :Db5
+  sleep 0.5
+  play :Eb
+  sleep 0.5
+  play :Ab
+  sleep 0.5
+  play :Db5
+  sleep 0.5
+  play :Eb
+  sleep 0.5
+  play :Db5
+  sleep 0.5
+end
