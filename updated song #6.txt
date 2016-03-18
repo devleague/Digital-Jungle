@@ -1,0 +1,76 @@
+use_bpm 140
+
+live_loop :werise do
+  use_synth :pretty_bell
+  use_synth_defaults release: 0.5
+  play :bf5, amp:3
+  sleep 0.5
+  play :af5, amp:3
+  sleep 0.5
+  play :F5, amp:3
+  sleep 0.5
+  play :Ef5, amp:3
+  sleep 0.5
+  play :F5, amp:3
+  sleep 0.5
+  play :Af5, amp:3
+  sleep 0.5
+  play :F5, amp:3
+  sleep 0.5
+  play :Ef5, amp:3
+  sleep 0.5
+  play :F5, amp:3
+  sleep 1
+  play :Df5, amp:3
+  sleep 1
+  play :Bf, amp:3
+  sleep 2
+end
+use_bpm 90
+live_loop :beat do
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sleep 0.125
+  sample :drum_cymbal_closed
+  sleep 0.125
+  sample :drum_cymbal_closed
+  sleep 0.125
+  sample :drum_cymbal_closed
+  sleep 0.125
+  sample :drum_cymbal_closed
+  sleep 0.125
+  sample :drum_cymbal_closed
+  sleep 0.125
+  sample :drum_cymbal_closed
+  sleep 0.125
+  sample :drum_cymbal_closed
+  sleep 0.125
+  sample :drum_cymbal_closed
+end
+
+live_loop :Coolbackgroundthingthatisawesome do
+  use_synth_defaults release: 0.5
+  play chord(:Gf4, :major),amp: 4
+  sleep 5.15
+  play chord(:Bb, :minor), amp: 4
+  sleep 5.15
+end
