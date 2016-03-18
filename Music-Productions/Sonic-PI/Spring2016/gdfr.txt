@@ -1,0 +1,61 @@
+use_bpm 146
+live_loop :melody do
+  3.times do
+    use_synth :pulse
+    #measure 1
+    play:D
+    sleep 0.5
+    play:G
+    sleep 0.5
+    play:D
+    sleep 0.5
+    play:D
+    play :C
+    sleep 0.5
+    play:c
+    sleep 0.5
+    play:Bb3
+    sleep 0.5
+    play:D
+    sleep 0.5
+    play:G
+    sleep 0.5
+    #measure 2
+    play:D
+    sleep 0.5
+    play:G
+    sleep 0.5
+    play:D
+    sleep 0.5
+    play:D
+    play :C
+    sleep 0.5
+    play:c
+    sleep 0.5
+    play:Bb3
+    sleep 0.5
+    play :Bb2
+    sleep 0.5
+    play :G2
+    sleep 0.5
+  end
+end
+
+live_loop :chords do
+  use_synth :dsaw
+  3.times do
+    play chord(:G, :minor), release: 2
+    sleep 3
+    play chord(:G, :minor), release: 2
+    sleep 2
+    play chord(:G, :minor), release: 2
+    play chord(:D, :major), release: 2
+    sleep 1.5
+    play chord(:G, :minor), release: 2
+    play chord(:Bb, :major), release: 2
+    sleep 1
+    play chord(:G, :minor), release: 2
+    play chord(:Bb, :major), release: 2
+    sleep 0.5
+  end
+end
