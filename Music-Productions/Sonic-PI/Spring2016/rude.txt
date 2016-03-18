@@ -1,0 +1,25 @@
+use_bpm 144
+sleep 0.84
+play :f
+sleep 0.21
+play :gb
+sleep 0.42
+play :f
+sleep 0.21
+play :eb
+sleep 0.63
+play db
+sleep 0.21
+play :f
+sleep 0.21
+play :gb
+sleep 0.42
+play :db
+sleep 1.5
+play :db
+sleep 0.21
+play :db
+sleep 0.21
+play Bb
+sleep 0.21
+play: 
