@@ -1,0 +1,31 @@
+use_bpm 80
+3.times do
+  play :F
+  sleep 0.665
+  play :C5
+  sleep 0.665
+  play :Bb
+  sleep 0.665
+  play :F
+  sleep 1.33
+  play :Bb
+  sleep 0.33
+  play :C5
+  sleep 0.33
+  play :D5
+  sleep 0.33
+  play :C5
+  sleep 0.33
+  play :Bb
+  sleep 0.33
+  play :C5
+  sleep 0.33
+end
+
+play :F
+sleep 0.665
+play :C5
+sleep 0.665
+play :Bb
+sleep 0.665
+play :F
