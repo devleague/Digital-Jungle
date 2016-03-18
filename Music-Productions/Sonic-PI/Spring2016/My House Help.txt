@@ -1,0 +1,40 @@
+live_loop :myhouse  do
+  use_bpm 94
+  use_synth :blade  
+  sample :bd_boom
+  play chord(:G, :major)
+  sleep 3.5
+  play chord(:Ef, :minor)
+  sleep 0.5
+  play chord(:Bf, :major)
+  sleep 2
+  play chord(:G, :major)
+  sleep 2.5
+  play chord(:Ef, :minor)
+  sleep 0.5
+  play chord(:Bf, :major)
+  sleep 2
+  play chord(:G,  :major)
+  sleep 2.5
+  play chord(:Ef, :minor)
+  sleep 0.5
+  play chord(:Bf, :major)
+  sleep 2
+  play chord(:G, :major)
+  sleep 2.5
+  play chord(:Ef, :minor)
+  sleep 0.7
+  play chord(:Bf, :major)
+  sleep 0.5
+  play chord(:G, :major)
+  sleep 0.5
+  play chord(:Ef, :minor)
+  sleep 2
+  play chord(:Bf, :major)
+  sleep 4
+  play chord(:G, :major)
+  sleep 0.5
+  play chord(:E, :minor)
+  sleep 1.5
+  play chord(:B, :major)
+end
