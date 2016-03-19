@@ -1,0 +1,60 @@
+use_bpm 94
+play :Bf
+sleep 0.8
+play :G
+sleep 0.64
+play :F
+sleep 0.50
+play :Ef
+sleep 0.8
+play :Bf, amp: 0.5, sustain: 0.1065, release: 0.1065
+sleep 0.213
+play :Bf, amp: 0.5, sustain: 0.1065, release: 0.1065
+sleep 0.213
+play :D, amp: 0.5, sustain: 0.1065, release: 0.1065
+sleep 0.426
+play :C
+sleep 0.32
+play :Bf
+sleep 0.64
+play :G
+sleep 0.48
+play :Ef, release: 0.875
+sleep 0.16
+play :Bf
+sleep 0.8
+play :G
+sleep 0.64
+play :F
+sleep 0.64
+play :Ef
+sleep 0.32
+play :F
+sleep 0.32
+play :F, amp: 0.5
+sleep 0.48
+play :F, amp: 0.5
+sleep 0.32
+play :G
+sleep 0.32
+play :F
+sleep 0.48
+play :Ef, amp: 0.5
+sleep 0.32
+play :C
+sleep 0.64
+play :Bf
+sleep 0.8
+play :G
+sleep 0.64
+play :F
+sleep 0.50
+play :Ef
+sleep 0.64
+play :Bf
+sleep 0.32
+play :Bf
+sleep 0.32
+play :Bf
+sleep 0.48
+play :C
