@@ -1,0 +1,69 @@
+use_bpm 144
+
+in_thread do
+  #measure 1
+  sleep 2
+  play :f
+  sleep 0.5
+  play :gb
+  sleep 1
+  play :f
+  sleep 0.5
+  #measure 2
+  play :eb
+  sleep 1.5
+  play :db
+  sleep 0.5
+  play :f
+  sleep 0.5
+  play :gb
+  sleep 1
+  play :F
+  sleep 0.5
+  #measure 3
+  play :Db, sustain: 2
+  sleep 3.5
+  #measure 4
+  play :Db
+  sleep 1
+  play :Db
+  sleep 0.5
+  play :eb
+  sleep 1
+  play :fb
+  sleep 1
+  play :Gb, sustain: 1
+  sleep 2.5
+  #measure 5
+  play :Gb3
+  sleep 0.5
+  play :F
+  sleep 0.5
+  play :Gb
+  sleep 1
+  play :F
+  sleep 0.5
+  #measure 6
+  play :Eb
+  sleep 1.5
+  play :Db
+  sleep 0.5
+  play :F
+  sleep 0.5
+  play :Gb
+  sleep 0.5
+  play :F
+  sleep 0.5
+  play :Db, sustain: 2
+end
+
+in_thread do
+  2.times
+  play chord(:gb, :major), sustain: 4
+  sleep 4
+  play chord(:ab,:major), substain: 4
+  sleep 4
+  play chord(:db, :major), substain: 4
+  sleep 4
+  play chord(:Bb, :minor), substain: 4
+end
