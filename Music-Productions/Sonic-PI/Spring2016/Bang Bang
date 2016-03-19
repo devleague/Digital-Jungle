@@ -1,0 +1,136 @@
+use_bpm 75
+use_synth :blade
+2.times do
+  play :C
+  sleep 0.4
+  play :C
+  sleep 0.4
+  play :E
+  sleep 0.2
+  play :G
+  sleep 0.2
+  play :A
+  sleep 0.2
+  play :C
+  sleep 0.8
+  play :Bf
+  sleep 0.2
+  play :Bf
+  sleep 0.2
+  play :Bf
+  sleep 0.2
+  play :Bf
+  sleep 0.2
+  play :Bf
+end
+
+play :E
+sleep 0.4
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.02
+play :Bf
+sleep 0.4
+play :D
+sleep 0.4
+play :C
+sleep 0.8
+play :E
+sleep 0.4
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.02
+play :Bf
+sleep 0.2
+play :B
+sleep 0.2
+play :C
+sleep 0.2
+play :Cs
+sleep 0.2
+play :D
+sleep 0.2
+play :Es
+sleep 0.4
+play :C
+2.times do
+  play :C
+  sleep 0.4
+  play :C
+  sleep 0.4
+  play :E
+  sleep 0.2
+  play :G
+  sleep 0.2
+  play :A
+  sleep 0.2
+  play :C
+  sleep 0.8
+  play :Bf
+  sleep 0.2
+  play :Bf
+  sleep 0.2
+  play :Bf
+  sleep 0.2
+  play :Bf
+  sleep 0.2
+  play :Bf
+end
+
+play :E
+sleep 0.4
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.02
+play :Bf
+sleep 0.4
+play :D
+sleep 0.4
+play :C
+sleep 0.8
+play :E
+sleep 0.4
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.2
+play :C
+sleep 0.02
+play :Bf
+sleep 0.2
+play :B
+sleep 0.2
+play :C
+sleep 0.2
+play :Cs
+sleep 0.2
+play :D
+sleep 0.2
+play :Es
+sleep 0.4
+play :C
