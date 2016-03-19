@@ -1,0 +1,77 @@
+use_bpm 200
+live_loop:spider do
+  use_synth :prophet
+  play :F5,sustain: 1
+  sleep 1
+  play :C, sustain: 0.5
+  sleep 1
+  play :Ab, sustain: 0.5
+  sleep 1
+  play :F, sustain: 0.5
+  sleep 1.5
+  play :C, sustain: 0.5
+  play :Bb, sustain: 0.5
+  sleep 0.5
+  play :Bb, sustain: 0.5
+  sleep 1
+  play :Bb, sustain: 0.5
+  sleep 0.5
+  play :Eb3, sustain: 0.5
+  sleep 0.5
+  play :F, sustain: 0.5
+  sleep 1
+  play :C, sustain: 0.5
+  sleep 0.5
+  play :Bb, sustain: 0.5
+  sleep 0.5
+  play :Ab, sustain: 0.5
+  sleep 0.5
+  play :Bb, sustain: 0.5
+  sleep 0.5
+  play :C, sustain: 0.5
+  sleep 0.5
+  play :Eb3, sustain: 0.5
+  sleep 0.5
+  play :F, sustain: 0.5
+  sleep 0.5
+  #meausre 4
+  play :Ab, sustain: 0.5
+  sleep 0.5
+  play :F, sustain: 0.5
+  sleep 0.5
+  play :Eb3, sustain: 0.5
+  sleep 0.5
+  play :F5, sustain: 0.5
+  sleep 0.5
+  play :Eb5, sustain: 0.5
+  sleep 0.5
+  play :C, sustain: 0.25
+  sleep 0.25
+  play :Bb, sustain: 0.25
+  sleep 0.25
+  play :Ab, sustain: 0.5
+  sleep 0.5
+  play :F, sustain: 1.5
+  sleep 2
+  play :G, sustain: 1.5
+  sleep 2
+  play :Ab, sustain: 1.5
+  sleep 2
+  play :Bb, sustain: 1.5
+  sleep 2
+  play :C, sustain: 1
+  sleep 1
+  play :Bb, sustain: 1
+  sleep 1
+  play :F5, sustain: 1
+  sleep 1
+  play :C, sustain: 1
+  sleep 1
+  play :Eb5, sustain: 1
+  play :F5, sustain: 1
+  sleep 1
+  play :Db, sustain: 1
+  sleep 1
+  play :C, sustain: 0.5
+  sleep 2.5
+end
